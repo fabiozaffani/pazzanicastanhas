@@ -1,0 +1,563 @@
+
+/*= Reset e Clearfix
+  ----------------------------------------------------------- */
+
+@import url("css/reset.css");
+
+
+
+/*= Eskeleton
+  ----------------------------------------------------------- */
+
+body{
+  background:#f5f5f5 url(images/bg.gif) top left repeat-x;
+  line-height:1;
+  font-size:12px;
+  line-height:16px;
+  color:#333;
+  font-family:"Dax", Helvetica, sans-serif;
+  text-align:center; /* -- IE hack Part 1 -- */ }
+
+html, body, #wrapper-out{height:100%;}
+
+body > #wrapper-out{height:auto; min-height:100%;}
+
+#wrapper-out{
+  margin:0 auto 90px auto !important;
+}
+
+#wrapper-out, #wrapper-bottom, #header, #footer, #container-top, #container, #main-index{margin:0 auto; width:946px;}
+
+#container-top, #container-bottom{
+  height:20px;
+}
+
+#container {
+  background:transparent url(images/containerBG.png) top left repeat;
+}
+
+#container-top{
+  margin-top:02px;
+  background:transparent url(images/containerBGTOP.png) top left no-repeat;
+}
+
+#container-bottom{
+  background:transparent url(images/containerBGBOTTOM.png) top left no-repeat;
+}
+
+#container	{
+	text-align:left; /* -- IE hack Part 2 -- */
+	padding-bottom:80px;
+}
+
+#header{
+	background:transparent url(images/header-bg.jpg) top left no-repeat;
+	color:#FFF;
+	text-align:center;
+	height:205px;
+	padding:30px 0 0 0;
+}
+#main, #main-index{
+  padding:0 22px;
+  width:902px;
+}
+
+#main{
+	width:600px;
+	float:left;
+}
+
+#sidebar{
+  width:255px;
+  float:right;
+  margin-right:20px;
+}
+
+#footer{
+  position:relative;
+  padding:20px 0 20px 0;
+  margin-top:-90px;
+  height:90px;
+}
+
+.postimage{
+	float:left;
+	display:block;
+	margin:0px 3px 0px 0px;
+}
+
+/*= Geral 
+  ----------------------------------------------------------- */
+
+
+/* Links */
+a, a:link, a:visited{
+  text-decoration:none;
+  color:#a55a26;
+}
+
+	a:hover{
+		text-decoration:underline;
+	}
+/* Titles */
+
+h1, h2, h3, h4, .title{
+	color:#333;
+	text-transform:none;
+	font-size:36px;
+	font-weight:bold;
+	margin:20px 0 10px 0;
+}
+
+
+	.time{
+		font-size:11px;
+		padding:0 0 10px 0;
+	}
+h1{
+   margin:0 0 20px 0;
+   line-height:38px;
+}
+h2{	
+	font-size:24px;
+	line-height:26px;
+}
+h3{
+	font-size:21px;
+	line-height:23px;
+}
+
+h4{
+	font-size:18px;
+	line-height:20px;
+}
+h5{
+	font-size:16px;
+	line-height:18px;
+}
+h6{
+	font-size:14px;
+	line-height:16px;
+}
+
+strong{
+	font-weight:bold;
+}
+
+small{
+	display:block;
+	margin-top:15px;
+}
+
+p.message{
+	color:red;
+}
+
+/* Main e  Main-index */
+#main a:hover{
+	text-decoration:underline;
+}
+
+#main p{
+	text-align:left;
+	line-height:23.24px;
+	padding:16.5px 0 0 0;
+	font-size:16px;
+}
+
+#main ul, #main ol{
+	padding:25px 0 25px 0;	
+	line-height:15.24px;
+	padding-left:30px;
+	font-size:12px;
+	width:420px;
+	margin:0 0 15px 0;
+}
+
+#main h1{
+  margin:73px 0;
+}
+
+#container #main li{
+	line-height:20px;
+}
+#container #main ul li{
+	list-style-type:disc;
+}
+#container #main ol li{
+	list-style-type:decimal;
+}
+
+#breadcrumb{
+  height:26px;
+  line-height:28px;
+  padding:0 22px 0 0;  
+}
+
+#breadcrumb, #breadcrumb a, #breadcrumb a:link{
+  color:#414040;
+  font-size:20px;
+  font-weight:bold;
+}
+
+blockquote p.b{
+	border-left:1px dashed #CC0000;
+	letter-spacing:1px;
+	text-align:justify;
+	font-style:italic;
+	color:#666666;
+}
+
+ul.formList{
+	padding-left:0 !important;
+}
+
+	ul.formList li{
+		width:100%;
+		list-style-type:none !important;
+		margin:0 0 20px 0;
+	}
+		ul.formList li label{
+			display:block;
+			width:100%;
+			font-size:16px;
+			line-height:20px;
+		}
+		
+		ul.formList li input{
+			height:27px;
+			line-height:27px;
+			width:100%;
+		}
+		
+		ul.formList li textarea{
+			width:100%;
+		}
+
+	.InputSubmit{
+		width:200px;
+		height:50px;
+		line-height:50px;
+		font-size:18px;
+	}
+
+/*= Header  */
+
+h1.title{
+  margin:0 !important;
+}
+
+h1.title a, h1.title a:link, h1.title a:visited{
+  display:block;
+  background:transparent url(images/LogoPazzaniCastanhas.png) no-repeat top left;
+  height:117px;
+  width:347px;
+  text-indent:-99999px;
+  float:left;
+}
+
+#PazzaniInfo{
+	float:left;
+	width:595px;
+	height:117px;
+}
+	#PazzaniInfo p.PazzaniInfoContato{
+		margin-top:40px;
+		text-align:right;
+		font-size:14px;
+		color:#414040;
+	}
+
+#SearchForm{
+	background:transparent url(images/searchBG.png) no-repeat top left;
+	width:328px;
+	height:38px;
+	float:right;
+	margin-top:10px;
+}
+
+	#SearchForm input.CampoBusca{
+		width:260px;
+		border:none;
+		height:30px;
+		line-height:20px;
+		color:#666666;
+		margin:4px 0 0 10px;
+		background:#ffffff;
+	}
+	
+	#SearchForm input#SearchSubmit{
+		height:32px;
+		line-height:32px !important;
+		background:none;
+		border:none;
+		width:40px;
+		cursor:pointer;
+		text-indent:-99999px;
+	}
+
+ul#menu{
+	background:transparent url(images/menuBG.png) no-repeat top left;
+	height:48px;
+	margin-top:137px;
+	*margin-top:20px; /* IE 7 chaos */
+	width:947px;
+}
+
+ul#menu li, ul#menu li a, ul#menu li a:visited{
+  height:45px;
+}
+
+ul#menu li{
+  	padding-top:1px;
+	float:left;
+}
+
+ul#menu a, ul#menu a:visited{
+  color:#ffffff;
+  text-transform:uppercase;
+  font-weight:bold;
+  font-size:22px;
+  line-height:45px;
+  display:block;
+  padding:0 32px;
+}
+
+	ul#menu a.MenuInicio{
+		padding:0 32px 0 25px;
+	}
+	
+	ul#menu a.MenuInicio:hover{
+		background:transparent url(images/MenuHoverInicio.gif) no-repeat top left;
+	}
+  
+  ul#menu a:hover{
+    background:#ffffff url(images/MenuHover.gif) repeat-x top left;
+	text-decoration:none;
+  }
+
+/*= Sidebar  */
+#sidebar{
+  color:#ffffff; 
+}
+
+  #sidebar a, #sidebar a:visited{
+    color:#ffffff;
+    font-size:18px;
+	line-height:20px;
+  }
+  
+  #sidebar a:hover{
+	color:#a55a26;
+	text-decoration:none;
+  }
+  
+  #sidebar ul{
+    margin-top:30px;
+    padding-top:20px;
+    background:transparent url(images/sidebarBGBOTTOM.png) no-repeat bottom left;  
+  }
+
+    #sidebar ul li{
+      padding:8px 15px;
+    }  
+    
+      #sidebar ul li li {
+	  	margin-bottom:5px;
+        padding:3px;
+      }
+  
+    #sidebar ul li.SideFirst{
+      background:transparent url(images/sidebarBGTOP.png) no-repeat top left;
+      margin-top:-40px;
+    }
+
+    #sidebar h2{
+      margin:15px 0;
+      color:#ffffff;
+    }
+    
+    #sidebar ul li ul, #sidebar ul li ol{
+      margin:0 0 0 15px;
+      padding:0;
+    }
+
+  #sidebar #FaleConoscoSidebar{
+    height:65px;
+  }
+
+    #sidebar #FaleConoscoSidebar a#FaleConoscoSidebarLink:hover span{
+      display:block;
+    }
+
+    #sidebar #FaleConoscoSidebar a span{
+      line-height:65px;
+      font-size:20px;
+      float:right;
+      font-weight:bold;
+      color:#414040;
+      display:none;
+      padding-right:15px;
+    }
+
+    #sidebar #FaleConoscoSidebar img{
+      float:right;
+    }
+
+
+/*= Footer  */
+
+#footer p{
+	font-size:14px;
+	text-align:center;
+	padding:0 0 5px 0;
+}
+
+#footer a, #footer a:visited{
+  color:#414040;
+}
+
+  #footer a:hover{
+    
+  }
+
+#footer ul li{
+	float:left;
+	margin:0 30px;
+}
+
+/* -- IMAGE CONTROL (OPTIONAL CLASSES) -- */
+
+.left, .right{border:1px solid #999999;display:inline;float:left;margin:7px 11px 0px 0px;padding:3px;}
+.right{float:right !important;margin:7px 0px 0px 11px !important;}
+
+/*= ELEMENTOS DO SITE 
+----------------------------------------------------------------------
+
+ CARROSSEL */
+div#CarrosselWrapper{
+  background:transparent url(images/destaqueContorno.png) no-repeat top left;
+  height:192px;
+  width:901px;
+  position:relative;
+}
+
+	div#CarrosselWrapper:hover #ControlesCarrossel{
+		display:block;
+	}
+
+div#Carrossel{
+  width:881px;
+  height:192px;
+  overflow:hidden;
+  position:relative;
+  margin-left:10px;
+}
+
+  div#Carrossel ul{
+    top:0;
+	left:0;
+    position:absolute;
+    height:180px;
+	margin:8px 0 7px 0;
+	background:#ffffff;
+	width:1802px;
+  }
+
+div#Carrossel li{
+  width:865px;
+  height:175px;
+  margin:0 8px;
+  float:left;
+}
+	div#Carrossel li div.CarrosselResumo{
+		float:left;
+		width:530px;
+	}
+
+	div#Carrossel li p{
+		margin-top:21px;
+		font-size:18px;
+		line-height:21px;
+	}
+	
+	div#Carrossel li img{
+		float:right;
+	}
+		
+		div#Carrossel li h2{
+			margin-top:5px;
+			line-height:34px;
+		}
+		
+		div#Carrossel li h2 a{
+			color:#414040;
+			font-size:32px;
+		}
+		
+		div#Carrossel li h2 a:hover{
+			color:#a55a26;
+			text-decoration:none;
+		}
+  
+div#ControlesCarrossel{
+  position:absolute;
+  display:none;
+  top:-30px;
+  right:-30px;
+  z-index:99999;
+  width:64px;
+  height:64px;
+}
+
+  div#ControlesCarrossel a{
+    background:transparent url(images/btVerMais.png) no-repeat top left;
+    display:block;
+    text-indent:-999999px;
+    width:64px;
+    height:64px;
+	  }
+  
+    
+/* HOME POSTS */
+
+ul#MainPosts{
+  width:100%;
+  margin-top:70px;
+  height:1390px;
+}
+
+	ul#MainPosts li{
+	  width:352px;
+	  float:left;
+	  height:350px;
+	  margin:0 30px;
+	}
+	
+	ul#MainPosts li a.MainLink:hover{
+		text-decoration:none;
+	}
+	
+	ul#MainPosts li.even{
+		float:right;
+	}
+
+		ul#MainPosts li p{
+			margin-top:15px;
+			font-size:16px;
+			line-height:19px;
+		}
+
+ul#MainPosts h2{
+  background:transparent url(images/mainHeaderBG.png) no-repeat top left;
+  color:#ffffff;
+  padding:5px 12px;
+  font-size:21px;
+  line-height:35px;
+  height:35px;
+  margin-bottom:0;
+  overflow:hidden;
+}
+
+/* PAGINA DE CONTATO */
+
