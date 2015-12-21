@@ -13,12 +13,12 @@
         </li>
 		<li>
 	        <p><a href="http://www.guitarpro6.com.br">Guitar Pro</a></p>
-        </li>        
+        </li>
         <li>
 			<p><a href="<?php bloginfo('rss2_url'); ?>"> Atualize-se (RSS) </a></p>
         </li>
         <li>
-        	<p>Atendimento pelo e-mail vendas@pazzani.com.br </p>
+        	<p>Atendimento pelo e-mail vendas@amazonbrazilnuts.com.br </p>
         </li>
 	</ul>
 </div>
