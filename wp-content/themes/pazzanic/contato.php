@@ -4,13 +4,14 @@ Template Name: Pazzani Castanhas Contact Form
 */
 
 global $General;
-?>
-<?php get_header(); ?>
+
+get_header(); ?>
 
 	<div id="main">
 		<?php if (function_exists('breadcrumb')) breadcrumb(); ?>
 
-  <?
+  <?php
+
   if (isset($_POST['Enviado'])){
       $Nome = $_POST['Nome'];
       $Email = $_POST['Email'];
@@ -88,7 +89,7 @@ global $General;
     if(isset($emailSent) && $emailSent == true) {
   ?>
     <h1>Sucesso!</h1>
-      <p>Obrigado, <?=$name;?>. Seu email foi enviado com sucesso e entraremos em contato o mais rápido possível.</p>
+      <p>Obrigado, <?php echo $name; ?>. Seu email foi enviado com sucesso e entraremos em contato o mais rápido possível.</p>
   <?php
     // Caso haja erros...
     } else {

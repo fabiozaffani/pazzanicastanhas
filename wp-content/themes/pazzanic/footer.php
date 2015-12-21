@@ -9,12 +9,6 @@
 			<p><a href="<?php echo get_settings('home'); ?>" class="bookmark">Castanhas de Caju</a></p>
         </li>
         <li>
-			<p><a href="http://www.pazzanibrindes.com.br">Brindes Personalizados</a></p>
-        </li>
-		<li>
-	        <p><a href="http://www.guitarpro6.com.br">Guitar Pro</a></p>
-        </li>
-        <li>
 			<p><a href="<?php bloginfo('rss2_url'); ?>"> Atualize-se (RSS) </a></p>
         </li>
         <li>
