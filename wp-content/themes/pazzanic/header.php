@@ -47,9 +47,12 @@
 		</div>
         <ul id="menu" class="clearfix">
         	<li>
-            	<a href="<?php bloginfo('url');?>" class="MenuInicio">Inicio</a>
-			</li>
-			<?php wp_list_pages('title_li=&sort_column=post_modified'); ?>
+            <a href="<?php bloginfo('url');?>" class="MenuInicio">Inicio</a>
+	        </li>
+          <li>
+            <a href="https://superpouco.com.br">Loja Online</a>
+          </li>
+			<?php wp_list_pages('title_li=&sort_column=post_modified&exclude=104'); ?>
 		</ul>
       </div> <!-- Fim do #header -->
 
