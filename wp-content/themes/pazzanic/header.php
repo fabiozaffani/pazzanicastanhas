@@ -47,7 +47,7 @@
 		</div>
         <ul id="menu" class="clearfix">
         	<li>
-            <a href="<?php bloginfo('url');?>" class="MenuInicio">Inicio</a>
+            <a href="https://www.superclubefit.com.br/blog" class="MenuInicio">Dicas Fit</a>
 	        </li>
           <li>
             <a href="https://superpouco.com.br">Loja Online</a>
